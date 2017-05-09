@@ -97,7 +97,7 @@
         android:layout_height="51dp"
         android:ems="10"
         android:inputType="text"
-        android:text="http://192.168.6.227:3000/media/renderers/d6ebfd90-d2c1-11e6-9376-df943f51f0d8"
+        android:text="http://192.168.43.120:3000/media/renderers/deadbeef-d2c1-11e6-9376-beefdead"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

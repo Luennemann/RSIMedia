@@ -66,11 +66,13 @@ public class Manager {
             c.setRequestMethod("POST");
             c.setDoInput(true);
             c.setDoOutput(true);
+            c.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
 
             OutputStream os = c.getOutputStream();
             BufferedWriter writer = new BufferedWriter(
                     new OutputStreamWriter(os, "UTF-8"));
             writer.write(json.toString());
+
             writer.flush();
             writer.close();
             os.close();

@@ -90,6 +90,7 @@ public class Property {
         try {
             //TODO check if property type is compatible with object class type
             changed = true;
+            this.value = (String) value;
 
         } catch (Exception e) {
             e.printStackTrace();
